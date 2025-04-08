@@ -1,7 +1,7 @@
 # IA Preditiva para o Bitcoin
 
 ## Organização dos Dados  
-
+```text
 bitcoin_features/  
 ├── blockchain_blocks_part/  
 ├── blockchain_transactions_part/  
@@ -9,8 +9,7 @@ bitcoin_features/
 ├── features_temp/  
 ├── features_dolar_parquet/  
 └── block_range_checkpoint.txt 
-
-## Estrutura do Projeto  
+```
 
 ## Estrutura do Projeto
 
@@ -44,7 +43,7 @@ project/
 │   └── __init__.py
 │
 └── README.md
-
+```
 ## Sumário
 
 - [Objetivo do Projeto](#objetivo-do-projeto)
