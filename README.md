@@ -36,6 +36,7 @@ project/
 ## Sumário
 
 - [Objetivo do Projeto](#objetivo-do-projeto)
+- [Abordagem Escalonada e Iterativa](#abordagem-escalonada-e-iterativa)
 - [Etapa 1: Coleta e Pré-Processamento Assíncrono](#etapa-1-coleta-e-pré-processamento-assíncrono)
 - [Etapa 2: Processamento e Salvamento com Spark](#etapa-2-processamento-e-salvamento-com-spark)
 - [Etapa 3: Engenharia de Features e Enriquecimento](#etapa-3-engenharia-de-features-e-enriquecimento)
