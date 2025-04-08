@@ -1,16 +1,5 @@
 # IA Preditiva para o Bitcoin
 
-## Organização dos Dados  
-```text
-bitcoin_features/  
-├── blockchain_blocks_part/  
-├── blockchain_transactions_part/  
-├── blockchain_addresses_part/  
-├── features_temp/  
-├── features_dolar_parquet/  
-└── block_range_checkpoint.txt 
-```
-
 ## Estrutura do Projeto
 
 ```text
@@ -78,8 +67,9 @@ O objetivo central foi aplicar e aprofundar habilidades em:
 Este projeto foi desenvolvido como uma construção progressiva, onde cada etapa representou um novo nível de desafio.
 O foco não foi apenas técnico, mas também estratégico e pedagógico, para aprender e documentar cada obstáculo enfrentado ao lidar com dados reais, massivos e ruidosos.
 
-- Comecei com a coleta assíncrona dos blocos da blockchain, o que exigiu cuidado com limites de API, controle de erros e otimização com asyncio e aiohttp.
-- Em seguida, enfrentei o desafio de persistir grandes volumes de dados de forma eficiente, aplicando conceitos de paralelismo, esquemas Parquet e verificação com PyArrow.
+-   Comecei com a coleta assíncrona dos blocos da blockchain, o que exigiu cuidado com limites de API, controle de erros e otimização com asyncio e aiohttp.
+-   Em seguida, enfrentei o desafio de persistir grandes volumes de dados de forma eficiente, aplicando conceitos de paralelismo, esquemas Parquet e verificação com PyArrow.
+-   Ao longo do projeto, a escalabilidade das ferramentas foi essencial: comecei com pandas para experimentação local, depois evoluí para dask e, por fim, para Spark, a fim de processar grandes volumes com robustez e velocidade.
 -	À medida que a quantidade de dados crescia, percebi a necessidade de um pipeline resiliente, com checkpoints, controle incremental e validação de dados antes do salvamento.
 -	A terceira etapa envolveu a complexidade da engenharia de features, onde surgiram decisões críticas sobre granularidade, joins, e enriquecimento com dados externos como o preço do BTC.
 -	Por fim, ao entrar nas análises temporais e modelagem, a dificuldade aumentou naturalmente, exigindo conceitos avançados de séries temporais, transformações, decomposição e testes estatísticos.
@@ -229,15 +219,16 @@ Nem todas as variáveis extraídas serão utilizadas diretamente na modelagem in
 
 ---
 
-## Organização dos Dados
-
+## Organização dos Dados  
+```text
 bitcoin_features/  
 ├── blockchain_blocks_part/  
 ├── blockchain_transactions_part/  
 ├── blockchain_addresses_part/  
 ├── features_temp/  
 ├── features_dolar_parquet/  
-└── block_range_checkpoint.txt  
+└── block_range_checkpoint.txt 
+``` 
 
 ---
 
