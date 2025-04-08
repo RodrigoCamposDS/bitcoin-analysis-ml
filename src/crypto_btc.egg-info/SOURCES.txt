@@ -1,0 +1,5 @@
+setup.py
+src/crypto_btc.egg-info/PKG-INFO
+src/crypto_btc.egg-info/SOURCES.txt
+src/crypto_btc.egg-info/dependency_links.txt
+src/crypto_btc.egg-info/top_level.txt
