@@ -71,7 +71,20 @@ O objetivo central foi aplicar e aprofundar habilidades em:
 - Armazenamento eficiente e particionado com Parquet
 - Preparação para ingestão em data warehouses escaláveis como o BigQuery
 - Estruturação de pipelines resilientes com controle incremental e modularidade
+---
 
+## Abordagem Escalonada e Iterativa
+
+Este projeto foi desenvolvido como uma construção progressiva, onde cada etapa representou um novo nível de desafio.
+O foco não foi apenas técnico, mas também estratégico e pedagógico, para aprender e documentar cada obstáculo enfrentado ao lidar com dados reais, massivos e ruidosos.
+
+- Comecei com a coleta assíncrona dos blocos da blockchain, o que exigiu cuidado com limites de API, controle de erros e otimização com asyncio e aiohttp.
+- Em seguida, enfrentei o desafio de persistir grandes volumes de dados de forma eficiente, aplicando conceitos de paralelismo, esquemas Parquet e verificação com PyArrow.
+-	À medida que a quantidade de dados crescia, percebi a necessidade de um pipeline resiliente, com checkpoints, controle incremental e validação de dados antes do salvamento.
+-	A terceira etapa envolveu a complexidade da engenharia de features, onde surgiram decisões críticas sobre granularidade, joins, e enriquecimento com dados externos como o preço do BTC.
+-	Por fim, ao entrar nas análises temporais e modelagem, a dificuldade aumentou naturalmente, exigindo conceitos avançados de séries temporais, transformações, decomposição e testes estatísticos.
+
+    Este processo foi intencionalmente construído para refletir um fluxo real de um projeto de dados no mundo profissional, com acertos, retrabalhos e aprendizado técnico contínuo.
 ---
 
 ## Etapa 1: Coleta e Pré-Processamento Assíncrono
