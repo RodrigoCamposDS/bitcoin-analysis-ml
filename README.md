@@ -12,9 +12,12 @@ bitcoin_features/
 
 ## Estrutura do Projeto  
 
+## Estrutura do Projeto
+
+```text
 project/
 ├── notebooks/
-│   ├── init.py
+│   ├── __init__.py
 │   ├── 01-blockchain_request_data.ipynb
 │   ├── 02-data-exploration.ipynb
 │   ├── 03-feature-engineering.ipynb
@@ -38,9 +41,9 @@ project/
 │   │       └── plot_btc.py
 │
 ├── crypto_btc/
-│   └── init.py
+│   └── __init__.py
 │
-└── README.md  
+└── README.md
 
 ## Sumário
 
