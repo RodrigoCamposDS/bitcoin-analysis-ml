@@ -12,36 +12,35 @@ bitcoin_features/
 
 ## Estrutura do Projeto  
 
-project/  
-│  
-├── notebooks/  
+project/
+├── notebooks/
 │   ├── init.py
-│   ├── 01-blockchain_request_data.ipynb  
-│   ├── 02-data-exploration.ipynb  
-│   ├── 03-feature-engineering.ipynb  
-│   ├── 04-bitcoin-forecasting.ipynb  
-│   ├── 05-NLP.ipynb  
-│   └── 06-LSTM-model.ipynb  
+│   ├── 01-blockchain_request_data.ipynb
+│   ├── 02-data-exploration.ipynb
+│   ├── 03-feature-engineering.ipynb
+│   ├── 04-bitcoin-forecasting.ipynb
+│   ├── 05-NLP.ipynb
+│   └── 06-LSTM-model.ipynb
 │
-├── src/   
-│   ├── crypto_btc.egg-info/  
+├── src/
+│   ├── crypto_btc.egg-info/
 │   ├── data/
-│   │   ├── data_processed/  
-│   │   │   └── data_exploration.py  
-│   │   ├── etl/  
-│   │   │   └── etl_blockchain.py  
-│   │   ├── features/  
-│   │   │   ├── arima_features.py  
-│   │   │   ├── fft_features.py  
-│   │   │   ├── regime_features.py  
+│   │   ├── data_processed/
+│   │   │   └── data_exploration.py
+│   │   ├── etl/
+│   │   │   └── etl_blockchain.py
+│   │   ├── features/
+│   │   │   ├── arima_features.py
+│   │   │   ├── fft_features.py
+│   │   │   ├── regime_features.py
 │   │   │   └── stl_features.py
-│   │   └── visualizations/ 
+│   │   └── visualizations/
 │   │       └── plot_btc.py
-│  
-├── crypto_btc/    
+│
+├── crypto_btc/
 │   └── init.py
-│  
-└── README.md   
+│
+└── README.md  
 
 ## Sumário
 
