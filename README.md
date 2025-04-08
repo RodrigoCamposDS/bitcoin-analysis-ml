@@ -1,5 +1,49 @@
 # IA Preditiva para o Bitcoin
 
+## Organização dos Dados  
+
+bitcoin_features/  
+├── blockchain_blocks_part/  
+├── blockchain_transactions_part/  
+├── blockchain_addresses_part/  
+├── features_temp/  
+├── features_dolar_parquet/  
+└── block_range_checkpoint.txt 
+
+## Estrutura do Projeto  
+
+project-root/
+│
+├── notebooks/
+│   ├── __init__.py
+│   ├── 01-blockchain_request_data.ipynb
+│   ├── 02-data-exploration.ipynb
+│   ├── 03-feature-engineering.ipynb
+│   ├── 04-bitcoin-forecasting.ipynb
+│   ├── 05-NLP.ipynb
+│   └── 06-LSTM-model.ipynb
+│
+├── src/
+│   ├── crypto_btc.egg-info/
+│   ├── data/
+│   │   ├── data_processed/
+│   │   │   └── data_exploration.py
+│   │   ├── etl/
+│   │   │   └── etl_blockchain.py
+│   │   ├── features/
+│   │   │   ├── arima_features.py
+│   │   │   ├── fft_features.py
+│   │   │   ├── regime_features.py
+│   │   │   └── stl_features.py
+│   │   └── visualizations/
+│   │       └── plot_btc.py
+│
+├── crypto_btc/
+│   └── __init__.py
+└── README.md
+
+
+
 ## Sumário
 
 - [Objetivo do Projeto](#objetivo-do-projeto)
