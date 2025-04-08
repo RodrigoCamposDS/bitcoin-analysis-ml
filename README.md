@@ -65,8 +65,8 @@ O objetivo central foi aplicar e aprofundar habilidades em:
 
 ## Abordagem Escalonada e Iterativa
 
-Este projeto foi desenvolvido como uma construção progressiva, onde cada etapa representou um novo nível de desafio.
-O foco não foi apenas técnico, mas também estratégico e pedagógico, para aprender e documentar cada obstáculo enfrentado ao lidar com dados reais, massivos e ruidosos.
+Este projeto está sendo desenvolvido como uma construção progressiva, onde cada etapa representou e está representando um novo nível de desafio.
+O foco não é apenas técnico, mas também estratégico e pedagógico, para aprender e documentar cada obstáculo enfrentado ao lidar com dados reais, massivos e ruidosos.
 
 -   Comecei com a coleta assíncrona dos blocos da blockchain, o que exigiu cuidado com limites de API, controle de erros e otimização com asyncio e aiohttp.
 -   Em seguida, enfrentei o desafio de persistir grandes volumes de dados de forma eficiente, aplicando conceitos de paralelismo, esquemas Parquet e verificação com PyArrow.
