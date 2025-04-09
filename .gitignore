@@ -33,3 +33,7 @@ Thumbs.db
 # Dados temporários ou brutos
 *.parquet
 *.csv
+
+# Diretórios de histórico e checkpoints
+history/
+block_range_checkpoint.txt
