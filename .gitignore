@@ -1,31 +1,35 @@
-
-# Ignorar ambientes virtuais
+# Ambientes virtuais
 venv/
 .env/
 .envrc
 
-# Ignorar cache Python
+# Cache do Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Ignorar arquivos de sistema
+# Arquivos de sistema
 .DS_Store
 Thumbs.db
 
-# Ignorar arquivos de configuração locais
+# Configurações locais de IDE
 .vscode/
+
+# Arquivos de log e temporários
 *.log
+*.bak
+*.tmp
+
+# Arquivos de banco e dados locais
 *.sqlite
 *.db
+
+# Arquivos de dados sensíveis
 *.json
 *.key
 *.pem
 
-# Ignorar dados temporários ou brutos
+# Dados temporários ou brutos
 *.parquet
 *.csv
-*.bak
-*.tmp
-
