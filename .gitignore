@@ -35,5 +35,5 @@ Thumbs.db
 *.csv
 
 # Diretórios de histórico e checkpoints
-history/
+.history/
 block_range_checkpoint.txt
