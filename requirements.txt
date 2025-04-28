@@ -15,8 +15,10 @@ bleach==6.2.0
 certifi==2025.1.31
 cffi==1.17.1
 charset-normalizer==3.4.1
+cloudpickle==3.1.1
 comm==0.2.2
 contourpy==1.3.1
+-e git+https://github.com/RodrigoCamposDS/bitcoin-analysis-ml.git@b8980871aa8fb85843d1718b25a05b75388be77e#egg=crypto_btc
 cycler==0.12.1
 debugpy==1.8.13
 decorator==5.2.1
@@ -27,8 +29,8 @@ findspark==2.0.1
 fonttools==4.57.0
 fqdn==1.5.1
 frozenlist==1.5.0
-h11==0.14.0
-httpcore==1.0.7
+h11==0.16.0
+httpcore==1.0.9
 httpx==0.28.1
 hurst==0.0.5
 idna==3.10
@@ -57,6 +59,7 @@ jupyterlab_pygments==0.3.0
 jupyterlab_server==2.27.3
 jupyterlab_widgets==3.0.13
 kiwisolver==1.4.8
+llvmlite==0.44.0
 MarkupSafe==3.0.2
 matplotlib==3.10.1
 matplotlib-inline==0.1.7
@@ -69,6 +72,7 @@ nbformat==5.10.4
 nest-asyncio==1.6.0
 notebook==7.3.3
 notebook_shim==0.2.4
+numba==0.61.2
 numpy==2.2.4
 overrides==7.7.0
 packaging==24.2
@@ -102,12 +106,16 @@ requests==2.32.3
 rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
 rpds-py==0.24.0
+scikit-base==0.12.2
 scikit-learn==1.6.1
 scipy==1.15.2
 seaborn==0.13.2
 Send2Trash==1.8.3
 setuptools==78.1.0
+shap==0.47.1
 six==1.17.0
+sktime==0.36.1
+slicer==0.0.8
 sniffio==1.3.1
 soupsieve==2.6
 stack-data==0.6.3
@@ -129,4 +137,5 @@ webencodings==0.5.1
 websocket-client==1.8.0
 wheel==0.45.1
 widgetsnbextension==4.0.13
+xgboost==3.0.0
 yarl==1.19.0
